@@ -6,3 +6,6 @@
 ### 2.算法题目
 
 [leecode](./doc/leecode/catalogue.md)
+
+### 3.剑指offer
+[剑指offer](./doc/offer/catalogue.md)
