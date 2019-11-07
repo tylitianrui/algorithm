@@ -1,6 +1,5 @@
 package main
 
-// 二叉查找树，有序！
 type TreeNode struct {
 	Val         int
 	Left, Right *TreeNode
