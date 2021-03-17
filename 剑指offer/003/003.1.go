@@ -14,6 +14,12 @@ func FindOneRepetition(l []int) (int, bool) {
 			l[l[i]], l[i] = l[i], l[l[i]]
 		}
 	}
-	return 0, false
+	return -1, false
 
 }
+
+/*
+ 说明:虽然此解法里用来两重循环,但是每个数字最多交换两次就找到自己的位置
+ 总时间复杂度是O(n)
+ 空间复制是O(1)
+*/
